@@ -1,13 +1,21 @@
-const FirstApp = ({message = "Default message"}) => {
+import PropTypes from "prop-types";
 
-    const greeting = 'Hello World';
+const FirstApp = ({title, message}) => {
 
     return (
         <>
-            <h1>{greeting}</h1>
+            <h1>{title}</h1>
             <p>{message}</p>
         </>
     );
+}
+
+FirstApp.protoTypes = {
+    message: PropTypes.string.isRequired
+}
+
+FirstApp.defaultProps = {
+    title: "Default title property"
 }
 
 export default FirstApp;

@@ -1,7 +1,17 @@
 html, body {
+    align-items: center;
     background-color: #21232A;
     color: #fff;
+    display: flex;
     font-family: "Helvetica Neue", Helvetica, Arial, sans, serif;
-    font-size: 1.3rem;
-    padding: 70px;
+    font-size: 1rem;
+    justify-content: center;
+}
+
+
+.counter {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
 }
