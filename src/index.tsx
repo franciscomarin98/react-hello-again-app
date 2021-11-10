@@ -1,8 +1,7 @@
 import ReactDOM from "react-dom";
+import FirstApp from "./FirstApp";
+import "./index.css";
 
-const saludo = <h1>Hola Mundo</h1>
-
-const app = document.querySelector('#root');
-ReactDOM.render(saludo, app);
+ReactDOM.render(<FirstApp message={"My first app again"}/>, document.querySelector('#root'));
 
 
