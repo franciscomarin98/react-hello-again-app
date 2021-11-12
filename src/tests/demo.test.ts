@@ -1,13 +1,8 @@
-test('should be true', () => {
-    const isActive = true;
+describe('Tests in the demo.test.ts file', () => {
+    test('should be equals string', () => {
+        const text1 = 'Hello World';
+        const text2 = 'Hello World';
+        expect(text1).toBe(text2);
+    })
 
-    if (!isActive) {
-        throw  new Error('Is not active');
-    }
 })
-
-
-export {
-    // Use an empty export to please Babel's single file emit.
-    // https://github.com/Microsoft/TypeScript/issues/15230
-}

@@ -1,18 +1,15 @@
+const firstName: string = 'Francisco';
+const lastName: string = 'Marin';
 
 
+// const fullName = nombre + ' ' + apellido;
+const fullName: string = `${firstName} ${lastName}`;
 
-const nombre   = 'Fernando';
-const apellido = 'Herrera';
-
-
-// const nombreCompleto = nombre + ' ' + apellido;
-const nombreCompleto = `${ nombre } ${ apellido }`;
-
-console.log( nombreCompleto );
+// console.log( fullName );
 
 
-function getSaludo(nombre) {
-    return 'Hola ' + nombre;
+export function getGreeting(fullName: string = 'World') {
+    return 'Hello ' + fullName;
 }
 
-console.log( `Este es un texto: ${ getSaludo( nombre ) }  ` );
+// console.log(`Este es un texto: ${getGreeting(fullName)}  `);
