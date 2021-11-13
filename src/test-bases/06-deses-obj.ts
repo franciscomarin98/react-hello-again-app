@@ -1,7 +1,7 @@
 
 // Desestructuración
 // Asignación Desestructurante
-const persona = {
+export const persona = {
     nombre: 'Tony',
     edad: 45,
     clave: 'Ironman'
