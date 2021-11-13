@@ -1,7 +1,7 @@
-import {getActiveUser, getUser} from "../../test-bases/05-functions";
+import {getActiveUser, getUser} from "../../test-bases/06-functions";
 
 
-describe('Tests in the 05-functions.test.ts file', () => {
+describe('Tests in the 06-functions.test.ts file', () => {
     test('The function "getUser" should return an object literal', () => {
         const userTest = {
             uid: 'ABC123',
