@@ -10,3 +10,14 @@ exports[`Test in <FirstApp /> should show the component successfully 1`] = `
   </p>
 </Fragment>
 `;
+
+exports[`Tests in <FirstApp /> should show the component successfully 1`] = `
+<Fragment>
+  <h1>
+    Hello World
+  </h1>
+  <p>
+    Default message property
+  </p>
+</Fragment>
+`;
