@@ -15,7 +15,7 @@ FirstApp.protoTypes = {
 }
 
 FirstApp.defaultProps = {
-    title: "Default title property"
+    message: "Default message property",
 }
 
 export default FirstApp;
